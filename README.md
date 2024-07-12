@@ -31,6 +31,39 @@ It is only used to monitor the Minecraft server locally or within the same Kuber
    
    coming soon...
 
+## Response Data
+```json
+{
+  "online": true,
+  "host": "127.0.0.1",
+  "port": 25565,
+  "ip_address": "127.0.0.1",
+  "retrieved_at": 1720770854853,
+  "expires_at": 1720770914853,
+  "srv_record": null,
+  "version": {
+    "name_raw": "1.20.3",
+    "name_clean": "1.20.3",
+    "name_html": "\u003cspan\u003e\u003cspan\u003e1.20.3\u003c/span\u003e\u003c/span\u003e",
+    "protocol": 765
+  },
+  "players": {
+    "online": 0,
+    "max": 20,
+    "list": []
+  },
+  "motd": {
+    "raw": "A Minecraft Server",
+    "clean": "A Minecraft Server",
+    "html": "\u003cspan\u003e\u003cspan\u003eA Minecraft Server\u003c/span\u003e\u003c/span\u003e"
+  },
+  "icon": null,
+  "mods": [],
+  "software": null,
+  "plugins": []
+}
+```
+
 ## License
 
 This project is licensed under the MIT License.
