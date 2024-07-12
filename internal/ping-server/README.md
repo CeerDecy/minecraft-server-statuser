@@ -1,0 +1,1 @@
+code from https://github.com/mcstatus-io/ping-server
