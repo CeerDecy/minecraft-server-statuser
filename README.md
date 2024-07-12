@@ -5,6 +5,8 @@ This is a container image for `minecraft-server-operator` to get the status of a
 
 It is only used to monitor the Minecraft server locally or within the same Kubernetes Pod, and the port must be open on 25565.
 
+[DockerHub](https://hub.docker.com/repository/docker/ceerdecy/minecraft-server-statuser)
+
 ## Features
 - Monitor Minecraft server status locally or within the same Pod.
 - Easy to deploy with Docker and Kubernetes.
